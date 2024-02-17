@@ -20,7 +20,7 @@ class DoctorForm extends Component {
     const { firstName, lastName, department } = this.state;
     const doctor = { firstName, lastName, department };
     
-    fetch('http://localhost:8080/new/doctor', {
+    fetch('https://hospital-management-backend-iixs.onrender.com/new/doctor', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

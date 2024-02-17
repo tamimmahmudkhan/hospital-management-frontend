@@ -8,7 +8,7 @@ class MedicineTable extends Component {
     this.state = {
       medicines: [],
     };
-    this.apiUrl = 'http://localhost:8080/medicines'; // Placeholder for the API endpoint
+    this.apiUrl = 'https://hospital-management-backend-iixs.onrender.com/medicines'; // Placeholder for the API endpoint
   }
 
   componentDidMount() {
