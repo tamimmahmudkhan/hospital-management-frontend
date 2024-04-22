@@ -9,7 +9,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    axios.post(`http://localhost:8080/login/${username}/${password}`)
+    axios.post(`https://hospital-management-backend-iixs.onrender.com/login/${username}/${password}`)
       .then(response => {
         const responseData = response.data;
         if (responseData.uname === username && responseData.password === password) {

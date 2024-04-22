@@ -20,7 +20,7 @@ class EquipmentForm extends Component {
     const { name, category, quantity } = this.state;
     const equipment = { name, category, quantity };
     
-    fetch('http://localhost:8080/new/equipment', {
+    fetch('https://hospital-management-backend-iixs.onrender.com/new/equipment', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

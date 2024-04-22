@@ -23,16 +23,16 @@ export default class Dashboard extends Component {
     let apiUrl = '';
     switch (tab) {
       case 'doctors':
-        apiUrl = 'http://localhost:8080/doctors';
+        apiUrl = 'https://hospital-management-backend-iixs.onrender.com/doctors';
         break;
       case 'patients':
-        apiUrl = 'http://localhost:8080/patients';
+        apiUrl = 'https://hospital-management-backend-iixs.onrender.com/patients';
         break;
       case 'medicines':
-        apiUrl = 'http://localhost:8080/medicines';
+        apiUrl = 'https://hospital-management-backend-iixs.onrender.com/medicines';
         break;
       case 'equipments':
-        apiUrl = 'http://localhost:8080/equipments';
+        apiUrl = 'https://hospital-management-backend-iixs.onrender.com/equipments';
         break;
       default:
         return;

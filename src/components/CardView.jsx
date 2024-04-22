@@ -23,16 +23,16 @@ class CardView extends Component {
     let apiUrl = '';
     switch (tab) {
       case 'Doctors':
-        apiUrl = 'http://localhost:8080/count/doctors';
+        apiUrl = 'https://hospital-management-backend-iixs.onrender.com/count/doctors';
         break;
       case 'Patients':
-        apiUrl = 'http://localhost:8080/count/patients';
+        apiUrl = 'https://hospital-management-backend-iixs.onrender.com/count/patients';
         break;
       case 'Medicines':
-        apiUrl = 'http://localhost:8080/count/medicines';
+        apiUrl = 'https://hospital-management-backend-iixs.onrender.com/count/medicines';
         break;
       case 'Equipments':
-        apiUrl = 'http://localhost:8080/count/equipments';
+        apiUrl = 'https://hospital-management-backend-iixs.onrender.com/count/equipments';
         break;
       default:
         return;

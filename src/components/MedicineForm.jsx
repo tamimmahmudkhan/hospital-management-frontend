@@ -21,7 +21,7 @@ class MedicineForm extends Component {
     const { name, company, total, quantity } = this.state;
     const medicine = { name, company, total, quantity };
     
-    fetch('http://localhost:8080/new/medicine', {
+    fetch('https://hospital-management-backend-iixs.onrender.com/new/medicine', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

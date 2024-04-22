@@ -20,7 +20,7 @@ class PatientForm extends Component {
     const { firstName, lastName, history } = this.state;
     const patient = { firstName, lastName, history };
     
-    fetch('http://localhost:8080/new/patient', {
+    fetch('https://hospital-management-backend-iixs.onrender.com/new/patient', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
