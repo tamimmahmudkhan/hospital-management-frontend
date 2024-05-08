@@ -1,7 +1,7 @@
-# Getting Started with Create React App
-# [Live Link](https://hospital-management-frontend-2l95.onrender.com ) 
+# [Hospital Management Front-end](https://hospital-management-frontend-2l95.onrender.com)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Connects to [Hospital Management Backend](https://github.com/tamimmahmudkhan/hospital-management-backend)
 ## Available Scripts
 
 In the project directory, you can run:
